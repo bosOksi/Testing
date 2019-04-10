@@ -108,7 +108,7 @@ public class WrikeTest {
                 driver.findElement(BTN5_QUESTION2).click();
                 break;
         }
-        int rndAnswersItem3 = WrikeUtils.getRandomAnswer(3, 3);
+        int rndAnswersItem3 = WrikeUtils.getRandomAnswer(1, 3);
         switch (rndAnswersItem3) {
             case (1):
                 driver.findElement(BTN1_QUESTION3).click();
@@ -151,7 +151,7 @@ public class WrikeTest {
         String twitterURL = driver.findElement(ELEMENT_OF_TWITTER_URL).getAttribute(ELEMENT_ATTRIBUTE_OF_TWITTER_URL);
         boolean checkTwitterURL = twitterURL.equals(URL_TWITTER_WRIKE);
         assertTrue("Invalid link", checkTwitterURL);
-        
+
     }
 }
 
