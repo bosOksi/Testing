@@ -17,13 +17,13 @@ Test case scenario:
 
 Stack of technologies for implementation:
 
-Platform: java8
-Build and run: maven
-Test framework: junit4
-UI test: selenium 3 
-Pattern: pageObject 
-Reporting: allure plugin
-Selector: xpath 
+1. Platform: java8
+2. Build and run: maven
+3. Test framework: junit4
+4. UI test: selenium 3 
+5. Pattern: pageObject 
+6. Reporting: allure plugin
+7. Selector: xpath 
 
 # Usage
 1. To run tests: `mvn clean test`
